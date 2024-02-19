@@ -1,4 +1,7 @@
 import sys
+from src.logger import logging
+#this module that we have created is for logging the data so that we can know if there is any eroor or message when logged.
+
 #The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment. 
 # It allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter. 
 
