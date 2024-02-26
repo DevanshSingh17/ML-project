@@ -1,4 +1,3 @@
-# here the code will be for feature scaling ,using one hot encoding ...
 import sys
 from dataclasses import dataclass
 
@@ -8,6 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
+
 from src.exception import CustomException
 from src.logger import logging
 import os
